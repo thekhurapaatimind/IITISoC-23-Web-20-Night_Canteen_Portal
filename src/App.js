@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router} from 'react-router-dom'
 import { GlobalStyle } from "./GlobalStyle";
-import Hero from './bucket/initial';
+import Hero from './bucket/Hero';
 import Products from './bucket/Products'
 import { productData } from './bucket/Products/info';
 import { productDataTwo } from './bucket/Products/info';
