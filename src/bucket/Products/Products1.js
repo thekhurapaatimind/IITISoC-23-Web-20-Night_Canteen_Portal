@@ -19,6 +19,7 @@ export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+
 `;
 
 export const ProductImg = styled.img`
@@ -55,12 +56,16 @@ export const ProductDesc = styled.p`
 export const ProductPrice = styled.p`
   margin-bottom: 1rem;
   font-size: 2rem;
+  border:2px solid rgb(246 249 1);
+  padding:5px 15px;
+  border-radius:12px;
 `;
 
 export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
+  border-radius:12px;
   background: #e31837;
   color: #fff;
   transition: 0.2 ease-out;

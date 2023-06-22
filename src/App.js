@@ -5,7 +5,7 @@ import Hero from './bucket/initial';
 import Products from './bucket/Products'
 import { productData } from './bucket/Products/info';
 import { productDataTwo } from './bucket/Products/info';
-import Feature from './bucket/Feature';
+// import Feature from './bucket/Feature';
 import Footer from './bucket/Footer';
 
 
@@ -15,7 +15,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Products heading='Your favourite dish' data={productData} />
-      <Feature />
+      {/* <Feature /> */}
       <Products heading='Paneer Special' data={productDataTwo} />
       <Footer />
     </Router>
