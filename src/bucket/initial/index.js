@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import NavBar from '../../bucket/NavBar'
-import SideBar from '../../bucket/SideBar'
+import NavBar from '../NavBar'
+import SideBar from '../SideBar'
 import { 
     HeroContainer, 
     HeroContent, 
@@ -8,7 +8,7 @@ import {
     HeroH1, 
     HeroB, 
     HeroBtn 
-} from './Hero1'
+} from './initial1'
 
 
 const Hero = () => {
