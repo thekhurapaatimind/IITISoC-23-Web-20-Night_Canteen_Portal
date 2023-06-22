@@ -15,7 +15,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Products heading='Your favourite dish' data={productData} />
-      <Feature />
+      {/* <Feature /> */}
       <Products heading='Paneer Special' data={productDataTwo} />
       <Footer />
     </Router>
