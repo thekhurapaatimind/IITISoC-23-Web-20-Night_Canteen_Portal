@@ -26,7 +26,7 @@ export const productData = [
         img:  PaneerNoodles,
         alt: 'PaneerNoodles',
         name: 'PaneerNoodles',
-        price: 'Rs 70,00',
+        price: 'Rs 70',
         button: 'Add to cart'
     }
 
@@ -39,21 +39,21 @@ export const productDataTwo = [
       img: pbm,
       alt: 'Paneer Butter Masala',
       name: 'Paneer Butter Masala',
-      price: 'Rs 120,00',
+      price: 'Rs 120',
       button: 'Add to cart'
     },
     {
       img: pmomo,
       alt: 'Paneer Momo',
       name: 'Paneer Momo',
-      price: 'Rs 65,00',
+      price: 'Rs 65',
       button: 'Add to cart'
     },
     {
       img: paneerroll,
       alt: 'Paneer roll',
       name: 'Paneer roll',
-      price: 'Rs 95,00',
+      price: 'Rs 95',
       button: 'Add to cart'
     }
   ];
