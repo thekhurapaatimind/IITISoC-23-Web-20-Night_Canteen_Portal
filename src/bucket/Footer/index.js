@@ -22,7 +22,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/">Home</SocialLogo>
+                        <SocialLogo to="/">ContactUs</SocialLogo>
                         <SocialIcons>
                             <SocialIconLink 
                             href=" https://github.com/Amit2004Tiwari" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
