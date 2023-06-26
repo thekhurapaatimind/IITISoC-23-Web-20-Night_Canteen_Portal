@@ -1,13 +1,5 @@
 import React from "react";
 import {BrowserRouter as Router} from 'react-router-dom'
-//import { GlobalStyle } from "./GlobalStyle";
-// import Hero from './bucket/Hero';
-// import Products from './bucket/Products'
-// import { productData } from './bucket/Products/info';
-// import { productDataTwo } from './bucket/Products/info';
-//import Feature from './bucket/Central';
-///import Footer from './bucket/Footer';
-//import hp from './Update_Main_page/rest.html'
 import i from './Update_Main_page/asset/home-bg.png'
 import j from './Update_Main_page/asset/logo.png'
 import k from './Update_Main_page/asset/nav-bg.png'
@@ -25,7 +17,7 @@ import css from './Update_Main_page/nc.css'
   <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet" />
   <nav id="navbar">
     <div id="logo">
-      <img src={i} title="Logo" alt="IIT-Indore logo" />
+      <img src={j} title="Logo" alt="IIT-Indore logo" />
     </div>
     <ul>
       <li className="item">
