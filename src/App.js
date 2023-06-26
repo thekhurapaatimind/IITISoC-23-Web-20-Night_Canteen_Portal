@@ -11,20 +11,21 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import i from './Update_Main_page/asset/home-bg.png'
 import j from './Update_Main_page/asset/logo.png'
 import k from './Update_Main_page/asset/nav-bg.png'
+import css from './Update_Main_page/nc.css'
 
  function App() {
    return (
 
 <> <router>
-  <meta charSet="UTF-8" />
+<meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IIT-Indore || Night Canteen Portal</title>
-  <link rel="stylesheet" href="./Updat_Main_page/nc.css" />
+  <link rel="stylesheet" href="./nc.css" />
   <link rel="icon" href="https://shorturl.at/invCG" />
   <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet" />
   <nav id="navbar">
     <div id="logo">
-      <button onClick={i}> </button> 
+      <img src={i} title="Logo" alt="IIT-Indore logo" />
     </div>
     <ul>
       <li className="item">
@@ -55,6 +56,8 @@ import k from './Update_Main_page/asset/nav-bg.png'
       <span>ORDER NOW!</span>
     </button>
   </section>
+
+
   </router>
 </>
 
