@@ -22,16 +22,16 @@ function Hompage() {
         <Link>Home</Link></a>
       </li>
       <li className="item">
-        <a href="menu"><Link>Menu</Link></a>
+        <a href="menu"><Link to='/Menu'>Menu</Link></a>
       </li>
       <li className="item">
-        <a href="orders"><Link>Orders</Link></a>
+        <a href="orders"><Link to='/Orders'>Orders</Link></a>
       </li>
       <li className="item">
-        <a href="contact"><Link>Contact</Link></a>
+        <a href="contact"><Link to='/Contact'>Contact</Link></a>
       </li>
       <li className="item">
-        <a href="login"><Link>Login</Link></a>
+        <a href="login"><Link to='/Login'>Login</Link></a>
       </li>
     
       
