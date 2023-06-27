@@ -46,7 +46,7 @@ const Header = () => {
                   
                         </li>}
               {  isAuthenticated ? (<li>
-                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                    <button className="button" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
       LogOut
     </button>
                 </li>)
@@ -55,12 +55,6 @@ const Header = () => {
                 <button onClick={() => loginWithRedirect()}>LogIn</button>
                 </li>
            ) }
-        
-       
-        {/* <li className="item">
-         <NavLink to='/Login'>Login</NavLink>
-        </li> */}
-      
         
         </ul>
   

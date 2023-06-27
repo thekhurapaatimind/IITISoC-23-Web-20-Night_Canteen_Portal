@@ -1,8 +1,6 @@
 import React from "react";
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import css from './Update_Main_page/nc.css'
-import Login from './Update_Main_page/Login'
-import Register from './Update_Main_page/Register'
  import Menu from "./Update_Main_page/Menu/intialiser";
 // import Orders from './Update_Main_page/Orders'
 import Contact from './Update_Main_page/Contact'
@@ -16,8 +14,6 @@ import styled from "styled-components";
    <>
 <Routes>
 <Route path="/" element={<Hompage/>}/>
-<Route path="/login" element={<Login/>}/>
-<Route path="/Register" element={<Register/>}/>
 <Route path="/Contact" element={<Contact/>}/>
 <Route path="/Header" element={<header/>}/>
 <Route path="/Menu" element={<Menu/>}>
