@@ -5,9 +5,24 @@ import PaneerNoodles from '../../data&pics/PaneerNoodles.webp'
 import pbm from '../../data&pics/pbm.jpg';
 import pmomo from '../../data&pics/pmomo.webp';
 import paneerroll from '../../data&pics/paneerroll.jpg';
-
+import tea from '../../data&pics/tea.png'
+import coffee from '../../data&pics/coffee.png'
 export const data = [
-    {
+  {
+    img:  tea,
+    alt: 'Tea',
+    name: 'Tea',
+    price: 'Rs 10',
+    button: 'Add to cart'
+},  
+{
+  img:  coffee,
+  alt: 'Coffee',
+  name: 'Coffee',
+  price: 'Rs 15',
+  button: 'Add to cart'
+}, 
+  {
         img:  ap,
         alt: 'Aloo Paratha',
         name: 'Aloo Paratha',
