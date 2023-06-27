@@ -1,12 +1,12 @@
 import React from 'react'
-import login from './Login.jsx'
+ import {login , input , button, h1, Wrapper} from './Login.jsx'
 import { NavLink } from 'react-router-dom'
 import Header from '../Header.js'
 import Register from '../Register'
-
 const Login = () => {
   return (<>
     <Header />
+    <Wrapper>
     <p>
       
 
@@ -20,6 +20,7 @@ const Login = () => {
         <div className='button'>  <NavLink to='./Register'> Register</NavLink></div>
     </div>
     </p>
+    </Wrapper>
     </>
   )
 }
