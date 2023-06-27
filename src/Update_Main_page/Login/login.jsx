@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const mainlogin = styled.div`
+ export const login = styled.div`
     width: 400px;
     background: #fff;
     border: 1px solid #dddfe2;
@@ -9,8 +9,7 @@ export const mainlogin = styled.div`
     align-items: center;
     text-align: center;
 `
-
-export const logininput = styled.div`
+ export const input = styled.div`
     border-radius: 8px;
     border: 2px solid #dddfe2;
     outline: none;
@@ -21,7 +20,7 @@ export const logininput = styled.div`
     font-size: 1rem;
 `
 
-export const loginbutton =styled.button `
+ export const button =styled.button `
 width: ${props => props. full ? '100%':null};
     min-width: 64px;
     border: 0;
@@ -36,4 +35,13 @@ width: ${props => props. full ? '100%':null};
     cursor: pointer;
     transition: all 0.8s;
     &:hover { background-color: #0072ff ;}
+`
+export const h1=styled.h1`
+color:red;
+font-size: 4rem;
+`
+export const Wrapper=styled.div`
+    background: var(--darkGrey);
+    padding: 0 20px;
+    height: 75px;
 `
