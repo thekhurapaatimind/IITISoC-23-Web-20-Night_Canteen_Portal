@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom"
 import j from './asset/logo.png'
 import './nc.css'
-
+import { useAuth0 } from "@auth0/auth0-react";
 const Header = () => {
+    const { loginWithRedirect } = useAuth0();
+    const { logout } = useAuth0();
+    const { user, isAuthenticated, isLoading } = useAuth0();
+    if (isLoading) {
+        return <div>Loading ...</div>;
+      }
   return (
     <>
     
@@ -29,9 +35,31 @@ const Header = () => {
         <li className="item">
           <NavLink to='/Contact'>ContactUs</NavLink>
         </li>
-        <li className="item">
+        
+        
+        
+    {  
+                 isAuthenticated && <li>
+                    
+                     ( <p> Welcome here {user.name}</p>)
+                
+                  
+                        </li>}
+              {  isAuthenticated ? (<li>
+                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+      LogOut
+    </button>
+                </li>)
+                :
+               ( <li>
+                <button onClick={() => loginWithRedirect()}>LogIn</button>
+                </li>
+           ) }
+        
+       
+        {/* <li className="item">
          <NavLink to='/Login'>Login</NavLink>
-        </li>
+        </li> */}
       
         
         </ul>
