@@ -17,7 +17,7 @@ export const logininput = styled.div`
     color: #1d2129;
     margin: 0.5rem 0;
     padding: 0.5rem 0.75rem;
-    width: 92%;
+    width: 90%;
     font-size: 1rem;
 `
 

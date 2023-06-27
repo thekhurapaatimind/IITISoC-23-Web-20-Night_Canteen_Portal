@@ -18,20 +18,19 @@ function Hompage() {
     </div>
     <ul>
       <li className="item">
-        <a href="#">
-        <Link>Home</Link></a>
+        <Link to='/'>Home</Link>
       </li>
       <li className="item">
-        <a href="menu"><Link to='/Menu'>Menu</Link></a>
+        <Link to='/Menu'>Menu</Link>
       </li>
       <li className="item">
-        <a href="orders"><Link to='/Orders'>Orders</Link></a>
+        <Link to='/Orders'>Orders</Link>
       </li>
       <li className="item">
-        <a href="contact"><Link to='/Contact'>ContactUs</Link></a>
+        <Link to='/Contact'>ContactUs</Link>
       </li>
       <li className="item">
-        <a href="login"><Link to='/Login'>Login</Link></a>
+       <Link to='/Login'>Login</Link>
       </li>
     
       

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
+    <p>
     <div className='login'>
        
         <h1>Login</h1>
@@ -13,6 +14,7 @@ const Login = () => {
         <div>or</div>
         <div className='button'> Register</div>
     </div>
+    </p>
   )
 }
 
