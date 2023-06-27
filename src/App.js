@@ -1,7 +1,6 @@
 import React from "react";
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import css from './Update_Main_page/nc.css'
-import './App.css'
 import Login from './Update_Main_page/Login'
 import Register from './Update_Main_page/Register'
 // import Menu from './Update_Main_page/Menu'
@@ -16,6 +15,7 @@ import Header from "./Update_Main_page/Header";
 <Routes>
 <Route path="/" element={<Hompage/>}/>
 <Route path="/login" element={<Login/>}/>
+<Route path="/Register" element={<Register/>}/>
 <Route path="/Contact" element={<Contact/>}/>
 <Route path="/Header" element={<header/>}/>
     </Routes>
