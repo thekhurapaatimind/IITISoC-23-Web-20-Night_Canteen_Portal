@@ -28,7 +28,7 @@ function Hompage() {
         <a href="orders"><Link to='/Orders'>Orders</Link></a>
       </li>
       <li className="item">
-        <a href="contact"><Link to='/Contact'>Contact</Link></a>
+        <a href="contact"><Link to='/Contact'>ContactUs</Link></a>
       </li>
       <li className="item">
         <a href="login"><Link to='/Login'>Login</Link></a>
