@@ -18,7 +18,7 @@ function Hompage() {
       Late-Night Cravings! Satisfy Your Hunger in the Late Hours of the Night."
     </p>
     <button className="button">
-      <span> <NavLink to='/Canteens'>ORDER NOW! </NavLink></span>
+      <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Canteens'>ORDER NOW! </NavLink></span>
     </button>
   </section>
 </>

@@ -21,7 +21,7 @@
 /* remove bullets */
 #navbar ul li{
     list-style:none; 
-    font-size:01.5rem;
+    font-size:1rem;
     }
 /* navbar */
 #navbar{
@@ -40,7 +40,7 @@
 #navbar ul li a{
     display: inline;
     text-decoration: none;
-    padding: 7px 4px;
+    padding: 6px 11.5px;
     background-color: rgb(227, 248, 203);
     border-radius: 10px;
     color:black;
@@ -139,7 +139,7 @@ border-radius:30px;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-
+    
   }
   
   .button span {
