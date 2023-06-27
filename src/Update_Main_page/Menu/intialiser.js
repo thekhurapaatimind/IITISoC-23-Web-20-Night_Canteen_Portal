@@ -27,7 +27,7 @@ const Menu=() => {
 
     <ProductsContainer>
             <ProductsHeading>
-                your fav dish
+                DISHES MADE JUST FOR YOU
             </ProductsHeading>
             <ProductWrapper>
                 
