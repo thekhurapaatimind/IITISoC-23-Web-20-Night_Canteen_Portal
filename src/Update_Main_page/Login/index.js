@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom'
 const Login = () => {
   return (
     <div className='login'>
-        <li>
-            <Link to="Login">Login</Link>
-        </li>
+       
         <h1>Login</h1>
         <input type = 'text' placeholder='Enter your userId/email/mobileNo'></input>
         <input type='password' placeholder='Enter your password'></input>

@@ -22,13 +22,19 @@ export const logininput = styled.div`
 `
 
 export const loginbutton =styled.button `
-    background: #1877f2;
-    border: 1px solid #1877f2;
-    color: #fff;
-    font-size: 1.25rem;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    border-radius: 8px;
+width: ${props => props. full ? '100%':null};
+    min-width: 64px;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 16px;
     outline: none;
+    background-color: #2f8bfd;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02857 rem;
     cursor: pointer;
+    transition: all 0.2s;
+    &:hover { background-color: #0072ff ;}
 `
