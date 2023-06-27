@@ -27,7 +27,6 @@ width: ${props => props. full ? '100%':null};
     border: 0;
     border-radius: 4px;
     padding: 8px 16px;
-    outline: none;
     background-color: #2f8bfd;
     color: #ffffff;
     font-size: 0.875rem;
@@ -35,6 +34,6 @@ width: ${props => props. full ? '100%':null};
     line-height: 1.5;
     letter-spacing: 0.02857 rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.8s;
     &:hover { background-color: #0072ff ;}
 `

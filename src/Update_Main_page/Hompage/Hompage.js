@@ -50,7 +50,7 @@ function Hompage() {
       Late-Night Cravings! Satisfy Your Hunger in the Late Hours of the Night."
     </p>
     <button className="button">
-      <span>ORDER NOW!</span>
+      <span> <Link to='/Canteens'>ORDER NOW! </Link></span>
     </button>
   </section>
 </>
