@@ -1,10 +1,13 @@
 import React from 'react'
 import login from './Login.jsx'
 import { NavLink } from 'react-router-dom'
+import Header from '../Header.js'
 
 const Login = () => {
-  return (
+  return (<>
+    <Header />
     <p>
+
     <div className='login'>
        
         <h1>Login</h1>
@@ -15,6 +18,7 @@ const Login = () => {
         <div className='button'> Register</div>
     </div>
     </p>
+    </>
   )
 }
 

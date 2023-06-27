@@ -9,6 +9,7 @@ import Register from './Update_Main_page/Register'
 import Contact from './Update_Main_page/Contact'
 // import Canteens  from './Update_Main_page/Canteens'
 import Hompage from './Update_Main_page/Hompage/Hompage.js'
+import Header from "./Update_Main_page/Header";
  function App() {
   return (
    <>
@@ -16,6 +17,7 @@ import Hompage from './Update_Main_page/Hompage/Hompage.js'
 <Route path="/" element={<Hompage/>}/>
 <Route path="/login" element={<Login/>}/>
 <Route path="/Contact" element={<Contact/>}/>
+<Route path="/Header" element={<header/>}/>
     </Routes>
     </>
    );
