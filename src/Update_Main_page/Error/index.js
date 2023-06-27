@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const index = () => {
   return (
-    <div>Sorry! This is an error.</div>
+    <div>Sorry!Sorry! This is an error.</div>
   )
 }
 
