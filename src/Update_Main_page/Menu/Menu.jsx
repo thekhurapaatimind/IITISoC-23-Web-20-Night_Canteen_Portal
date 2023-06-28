@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import css from './menu.css'
 export const ProductsContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
