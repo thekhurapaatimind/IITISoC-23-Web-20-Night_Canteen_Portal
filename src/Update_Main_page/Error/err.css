@@ -28,5 +28,16 @@ p{
     position:absolute;
     top: 284px;
     left: 442px;
+    padding:5px;
+    
+}
+img{
+    height:200px;
+    width:200px;
+    position:absolute;
+    align-items:center;
+    top:60px;
+    left:585px;
+
     
 }
