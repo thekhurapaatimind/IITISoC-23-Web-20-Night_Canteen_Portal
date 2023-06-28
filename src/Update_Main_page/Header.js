@@ -41,7 +41,7 @@ const Header = () => {
     {  
                  isAuthenticated && <li>
                     
-                     ( <p> Welcome here {user.name}</p>)
+                     ( <p style="white"> Welcome here {user.name}</p>)
                 
                   
                         </li>}

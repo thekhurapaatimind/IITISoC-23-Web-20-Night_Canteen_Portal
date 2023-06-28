@@ -29,63 +29,81 @@ export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  // box-shadow: 8px 8px #fdc500;
-  --angle: 0deg;
-	border: 0.4vmin solid;
-	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
-	animation: 4s rotate linear infinite;
-
-@keyframes rotate {
-	to {
-		--angle: 360deg;
-	}
-}
-
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
+  border:2px solid white;
+  
+    --c: #fbff00; 
+    --b: 2.5px;    
+    --g: 0px;     /* the gap on hover */
+    
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .3s, background-position .3s .3s;
+    cursor: pointer;
+  
+  &:hover {
+    --_i: 100%;
+    transition: .3s, background-size .3s .3s;
+  }
 
 `;
 
 export const ProductsHeading = styled.h1`
   font-size: clamp(1.5rem, 2.5vw, 3rem);
   text-align: center;
+  width:25%;
+  margin-top:30px;
+  margin-bottom:30px;
   padding:20px;
-  --border-size: 2px;
-  --border-angle: 0turn;
-  margin-left:30%;
-  margin-bottom:50px;
-  width: 80vmin;
-  height: 6.5vmin;
-  align-items: center;
-  background-image: conic-gradient(
-      from var(--border-angle),
-      #213,
-      #112 50%,
-      #213
-    ),
-    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2))
-      calc(100% - (var(--border-size) * 2)),
-    cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  animation: bg-spin 3s linear infinite;
-  @keyframes bg-spin {
-    to {
-      --border-angle: 1turn;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.8em 1.6em;
+    font-size: 20px;
+    overflow: hidden;
+    &:focus, &:active {
+      outline: none;
     }
-    &:hover {
-      animation-play-state: paused;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: auto;
+      width: auto;
+      z-index: -1;
+      border-radius: inherit;
+      background: inherit;
+    }
+    &:before {
+      background: linear-gradient(90deg, #0ebeff, #ffdd40, #ae63e4, #47cf73, #0ebeff, #ffdd40, #ae63e4, #47cf73);
+      background-size: 200% 200%;
+    }
+    &:after {
+      margin: 3px;
+    }
+    &:hover:before, &:focus:before {
+      animation: rainbow-border 1.5s linear infinite
     }
   }
-  
-  @property --border-angle {
-    syntax: "<angle>";
-    inherits: true;
-    initial-value: 0turn;
+  @keyframes rainbow-border {
+    0% { background-position: 0% 50% }
+    100% { background-position: 200% 50% }
   }
   
 `;

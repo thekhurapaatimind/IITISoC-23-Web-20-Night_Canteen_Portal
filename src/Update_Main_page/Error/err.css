@@ -1,4 +1,4 @@
-/* .bg{position:relative;
+.bg{position:relative;
     background: linear-gradient(-45deg, #492013, #4d1027, #0c3b4d, #094d3d);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -16,7 +16,7 @@
 		background-position: 0% 50%;
 	}
 }
-p{
+.bg p{
     font-size:2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
@@ -31,7 +31,7 @@ p{
     padding:5px;
     
 }
-img{
+.bg img{
     height:200px;
     width:200px;
     position:absolute;
@@ -40,4 +40,4 @@ img{
     left:585px;
 
     
-} */
+}

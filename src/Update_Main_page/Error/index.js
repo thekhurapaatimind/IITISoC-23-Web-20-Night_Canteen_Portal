@@ -5,9 +5,9 @@ import errmsg from './er.png'
 const index = () => {
   return (
     <div className='bg'> 
-    ERROR
-    {/* <img src={errmsg} />
-    <p>Sorry! Some error occurred</p> */}
+
+    <img src={errmsg} />
+    <p>Sorry! Some error occurred</p>
 
     </div>
   )
