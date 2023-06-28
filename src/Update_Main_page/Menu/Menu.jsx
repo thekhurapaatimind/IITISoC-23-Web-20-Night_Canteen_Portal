@@ -18,9 +18,9 @@ export const ProductWrapper = styled.div`
 
 export const ProductCard = styled.div`
   margin: 2rem 2rem;
-  line-height: 2;
+  line-height: 1.5;
   width: 300px;
-  background-color:maroon;
+  background-color:#8b1150;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 `;

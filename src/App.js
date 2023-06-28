@@ -20,6 +20,7 @@ import styled from "styled-components";
   </Route>
 <Route path="*" element={<Error/>}/>
     </Routes>
+    
     </>
    );
  }
