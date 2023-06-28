@@ -1,11 +1,16 @@
 import styled from 'styled-components'
+import img from '../../data&pics/cdf.png'
 export const ProductsContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background: #150f0f;
   color: #fff;
   
+`;
+export const Content = styled.div`
+    border: 1px solid #000;
+    background-image: url(${img});
+    height: 5000px;
 `;
 
 export const ProductWrapper = styled.div`

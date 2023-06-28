@@ -5,7 +5,7 @@ import './../Contact/Contact.css'
 const Contact = () => {
   return (<>
   <Header />
-  <section class="ftco-section contact-section bg-light">
+  <section id='home' class="ftco-section contact-section bg-light">
   <div class="container">
     <div class="row d-flex contact-info">
       <div class="col-12">

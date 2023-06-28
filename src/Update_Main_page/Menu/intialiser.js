@@ -12,6 +12,7 @@ import {
     ProductInfo,
     ProductDesc,
     ProductPrice,
+    Content,
     ProductButton
   } from './Menu.jsx';
   import {datahb} from './data.js';
@@ -24,12 +25,10 @@ const Menu=() => {
     const navigate = useNavigate();
     return (
         <>
-    
-       
-    <Header />
-     
-
+    <Content>
+    <Header/>
     <ProductsContainer>
+        
             <ProductsHeading>
                 DISHES MADE JUST FOR YOU
             </ProductsHeading>
@@ -195,6 +194,7 @@ const Menu=() => {
                 })}
             </ProductWrapper>
         </ProductsContainer>
+        </Content>
     </>
   )
 }
