@@ -41,7 +41,7 @@ const Header = () => {
     {  
                  isAuthenticated && <li>
                     
-                     (<p style={{color:'white',border:'2px solid white', borderRadius: 10,padding:6,marginTop:15}}>Welcome {user.name}</p>)
+                     <p style={{color:'white',border:'2px solid white', borderRadius: 10,padding:6,marginTop:15}}>Welcome {user.name}</p>
                 
                   
                         </li>}
