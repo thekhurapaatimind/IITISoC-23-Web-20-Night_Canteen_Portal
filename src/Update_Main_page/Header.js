@@ -33,7 +33,7 @@ const Header = () => {
           <NavLink to='/Orders'>Orders</NavLink>
         </li>
         <li className="item">
-          <NavLink to='/Contact'>ContactUs</NavLink>
+          <NavLink to='/Contact'>Contact Us</NavLink>
         </li>
         
         
@@ -41,7 +41,7 @@ const Header = () => {
     {  
                  isAuthenticated && <li>
                     
-                     ( <p style="white"> Welcome here {user.name}</p>)
+                     (<p style={{color:'white',border:'2px solid white', borderRadius: 10,padding:6,marginTop:15}}>Welcome {user.name}</p>)
                 
                   
                         </li>}
@@ -52,7 +52,7 @@ const Header = () => {
                 </li>)
                 :
                ( <li>
-                <button color="white"  onClick={() => loginWithRedirect()}>LogIn</button>
+                <button padding="10%"  onClick={() => loginWithRedirect()}>LogIn</button>
                 </li>
            ) }
         

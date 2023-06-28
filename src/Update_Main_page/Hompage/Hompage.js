@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Header from '../Header'
 import "./hm.css"
+
 function Hompage() {
     return (
         <>
@@ -21,6 +22,7 @@ function Hompage() {
       <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Canteens'>ORDER NOW! </NavLink></span>
     </button>
   </section>
+  <footer/>
 </>
     );
 }
