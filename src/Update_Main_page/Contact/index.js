@@ -11,7 +11,6 @@ const Contact = () => {
       <div class="col-12">
         <h2 class="h4 font-weight-bold"><span>Contact Information&nbsp;&nbsp; </span></h2>
       </div>
-      <div class="w"></div>
       <div class="col-3 d-flex">
        <div class="box">
          <p><span>Address:</span> Central Dining Facility
