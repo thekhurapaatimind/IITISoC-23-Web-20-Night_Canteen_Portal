@@ -46,13 +46,13 @@ const Header = () => {
                   
                         </li>}
               {  isAuthenticated ? (<li>
-                    <button className="button" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                    <button className="item" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
       LogOut
     </button>
                 </li>)
                 :
-               ( <li>
-                <button padding="10%"  onClick={() => loginWithRedirect()}>LogIn</button>
+               ( <li className="items">
+                <button  onClick={() => loginWithRedirect()}>LogIn</button>
                 </li>
            ) }
         
