@@ -22,6 +22,7 @@
 #navbar ul li{
     list-style:none; 
     font-size:1rem;
+    z-index:2;
     }
 /* navbar */
 #navbar{
@@ -31,25 +32,29 @@
     content:"";
     position:absolute;
     background: url(./asset/nav-bg.png);
-    z-index:-1;
-    opacity:0.8;
+    z-index:-1;  
     height:100%;
     width:100%;
+    filter: blur(4px);  /* to BLUR */
+  -webkit-filter: blur(2px);
+  transform: scale(1.1); /*to remove the white border while blurring*/
 }
 /* for tabs */
 #navbar ul li a{
     display: inline;
     text-decoration: none;
-    padding: 6px 11.5px;
-    background-color: rgb(227, 248, 203);
-    border-radius: 10px;
-    color:black;
+    padding: 6px 14px;
+    /* background-color: rgb(227, 248, 203); */
+    background-color: #f8683c;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
     margin: 0px 45px;
    
 }
 #navbar ul li a:hover{
-    color:black;
-    background-color:rgb(255, 255, 170) ;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color:#df582f ;
 }
 /* home tab */
 #home{
@@ -92,10 +97,15 @@
     content:"";
     position:absolute;
     background: url(./asset/home-bg.png) no-repeat center center/cover ;
-    z-index:-1;
-    opacity:0.7;
+    z-index:-2;
+    /* opacity:0.7; */
+    margin-top:60px;
     height:950px;;
     width:100%;
+    filter: blur(4px);
+  -webkit-filter: blur(2px);
+  transform: scale(1.1); /*to remove the white border while blurring*/
+
 }
 
 /* floating code ends */
