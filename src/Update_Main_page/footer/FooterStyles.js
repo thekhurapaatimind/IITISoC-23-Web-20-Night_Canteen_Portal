@@ -1,22 +1,29 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding: 80px 60px;
-  background: black;
-  bottom: 10px;
+
+  position: fixed;
+  background: 	#00FF00;
+  bottom: 0px;
   width: 100%;
-  height: 90px;;
- margin : 0px;
-  }
-`;
-   
+  height: 40px;
+  padding: 1px 1000px ;
+`
+export const Button = styled.button`
+  color: #BF4F74;
+  font-size: 1em;
+  margin: 10em;
+  padding: 0.25em 1em;
+  border: 2px solid #BF4F74;
+  border-radius: 3px;
+`
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    /* background: red; */
+    position: relative;
+    padding: 8px 15px;
 `
    
 export const Column = styled.div`
@@ -24,7 +31,7 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
-`;
+`
    
 export const Row = styled.div`
   display: grid;

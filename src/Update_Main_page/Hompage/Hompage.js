@@ -10,9 +10,9 @@ function Hompage() {
         
 < Header />
   <section id="home">
-    <h1 className="h-primary">IIT-Indore Night Canteen</h1>
+    <h1 >IIT-Indore Night Canteen</h1>
     <p id="p2">
-      The portal caters various needs of the students placing orders and the
+     The portal caters various needs of the students placing orders and the
       caterers.
     </p>
     <p id="p1">

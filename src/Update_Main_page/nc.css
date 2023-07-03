@@ -11,23 +11,26 @@
 }
 
 #logo img{
-    height: 65px;
-    width: 65px;
-    margin: 5px 30px;}
+  
+    height: 100px;
+    width: auto;
+    margin: 6px 30px;}
 
 #navbar ul{
         display: flex;
+        padding: 5px 600px;
     }
 /* remove bullets */
 #navbar ul li{
     list-style:none; 
-    font-size:1rem;
+    font-size:01.1rem;
+    padding: 0px 0px;
     z-index:2;
     }
   #navbar ul li button{
       list-style:none; 
-      font-size:1rem;
-      z-index:2;
+      font-size:1.1rem;
+      
       }
 /* navbar */
 #navbar{
@@ -52,7 +55,7 @@
     background-color: #f8683c;
     border-radius: 20px;
     color:rgb(255, 255, 255);
-    margin: 0px 45px;
+    margin: -9px 30px;
    
 }
 #navbar ul li a:hover{
@@ -68,7 +71,7 @@
   background-color: #f8683c;
   border-radius: 20px;
   color:rgb(255, 255, 255);
-  margin: -9px 45px;
+  margin: -9px 30px;
   border-style: none;
   
 }
