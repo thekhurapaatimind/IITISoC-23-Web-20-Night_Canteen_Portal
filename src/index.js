@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Route } from 'react-router-dom';
-import { Auth0Provider } from '@auth0/auth0-react';
+import { Auth0Provider, useRefreshTokens } from '@auth0/auth0-react';
 ReactDOM.render(<Auth0Provider
   domain="dev-7aldffizpyibsq88.us.auth0.com"
   clientId="tbtnh5KWz9nbZWQHV2XXVY9saJaPEas8"
   redirect_uri={window.location.origin}
   authorizationParams={{
-    redirect_uri: window.location.origin
-  }}
+    redirect_uri: window.location.origin}}
+  useRefreshTokens={true}
+  useRefreshTokensFallback={false}
+
+cacheLocation="localstorage"
 >
    
   <BrowserRouter>

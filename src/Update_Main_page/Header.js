@@ -54,6 +54,7 @@ const Header = () => {
                ( <li className="items">
                 <button  onClick={() => loginWithRedirect()}>LogIn</button>
                 </li>
+                
            ) }
         
         </ul>
