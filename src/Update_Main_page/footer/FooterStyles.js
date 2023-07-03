@@ -2,12 +2,17 @@ import styled from 'styled-components';
    
 export const Box = styled.div`
 
-  position: fixed;
-  background: 	#00FF00;
-  bottom: 0px;
-  width: 100%;
-  height: 40px;
-  padding: 1px 1000px ;
+  display:flex;
+  border:2px solid white;
+  background-color:rgb(0,0,0,0.5);
+  
+  width: auto;
+  height: 100px;
+  margin-top:150px;
+`
+export const Htext = styled.div`
+color:rgb(255,255,255);
+
 `
 export const Button = styled.button`
   color: #BF4F74;

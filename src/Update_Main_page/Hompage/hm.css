@@ -1,3 +1,14 @@
 #section p{
    padding: 10px 10px;
 }
+h1{
+   margin: 50px 0px !important;
+   font-size: 2.5rem !important;
+}
+p{
+   margin-bottom: 50px !important;
+   font-size: 1.2rem !important;
+}
+#p1{
+   width: 1000px !important;
+}
