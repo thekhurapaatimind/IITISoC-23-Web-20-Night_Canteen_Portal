@@ -6,21 +6,19 @@ import {
   Column,
   FooterLink,
   Heading,
-} from "FooterStyles.js";
+} from "./FooterStyles.js";
+import { NavLink } from "react-router-dom";
+
   
 const Footer = () => {
   return (
     <Box>
-      <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        GeeksforGeeks: A Computer Science Portal for Geeks
-      </h1>
+     
       <Container>
         <Row>
           <Column>
             <Heading>Address</Heading>
-            <p>
+            <p color="white">
             Indian Institute of Technology Indore, <br/>
 Khandwa Road, Simrol, <br/>
 Indore,MP <br/>
