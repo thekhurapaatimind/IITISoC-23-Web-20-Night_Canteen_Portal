@@ -3,15 +3,28 @@ import styled from 'styled-components';
 export const Box = styled.div`
 
   display:flex;
-  border:2px solid white;
-  background-color:rgb(0,0,0,0.5);
-  
-  width: auto;
-  height: 100px;
-  margin-top:150px;
+  align-items:center;
+  background:rgb(0,0,0,0.2);
+
+  width: 100%;
+  height: 120px;
+  margin:100px auto;
 `
 export const Htext = styled.div`
 color:rgb(255,255,255);
+font-weight:550;
+text-align:center;
+opacity:80%;
+
+`
+export const Rr = styled.div`
+color:rgb(255,255,255);
+font-weight:400;
+text-align:center;
+margin:10px;
+opacity:80%;
+`
+export const Lnk = styled.div`
 
 `
 export const Button = styled.button`
@@ -62,9 +75,3 @@ export const FooterLink = styled.a`
   }
 `;
    
-export const Heading = styled.p`
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 40px;
-  font-weight: bold;
-`;
