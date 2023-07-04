@@ -8,7 +8,7 @@ import Contact from './Update_Main_page/Contact'
 import Hompage from './Update_Main_page/Hompage/Hompage.js'
 import Header from "./Update_Main_page/Header";
 import Error from "./Update_Main_page/Error"
-import Orders from "./Update_Main_page/Orders";
+import Orders from "./Update_Main_page/Orders/func";
 import styled from "styled-components";
  function App() {
   return (
