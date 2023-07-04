@@ -9,7 +9,7 @@ function Hompage() {
         <>
         
 < Header />
-  <section id="home">
+  <section id="home" >
     <h1 >IIT-Indore Night Canteen</h1>
     <p id="p2">
      The portal caters various needs of the students placing orders and the
@@ -20,7 +20,7 @@ function Hompage() {
       Late-Night Cravings! Satisfy Your Hunger in the Late Hours of the Night."
     </p>
     <button className="button">
-      <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Canteens'>ORDER NOW! </NavLink></span>
+      <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Menu'>ORDER NOW! </NavLink></span>
     </button>
   </section>
   <Footer/>
