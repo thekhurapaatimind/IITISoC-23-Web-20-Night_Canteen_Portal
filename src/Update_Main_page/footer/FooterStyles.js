@@ -25,7 +25,7 @@ margin:10px;
 opacity:80%;
 `
 export const Lnk = styled.div`
-
+display:flex;
 `
 export const Button = styled.button`
   color: #BF4F74;
