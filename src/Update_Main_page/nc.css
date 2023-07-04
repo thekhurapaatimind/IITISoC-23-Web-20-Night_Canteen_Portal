@@ -18,7 +18,7 @@
 
 #navbar ul{
         display: flex;
-        padding: 5px 600px;
+        padding: 5px 450px;
     }
 /* remove bullets */
 #navbar ul li{
