@@ -8,7 +8,7 @@ import Contact from './Update_Main_page/Contact'
 import Hompage from './Update_Main_page/Hompage/Hompage.js'
 import Header from "./Update_Main_page/Header";
 import Error from "./Update_Main_page/Error"
-import Orders from "./Update_Main_page/Orders";
+
 import styled from "styled-components";
  function App() {
   return (
@@ -19,7 +19,7 @@ import styled from "styled-components";
 <Route path="/Header" element={<header/>}/>
 <Route path="/Menu" element={<Menu/>}>
   </Route>
-<Route path="/Orders" element={<Orders/>}></Route>
+
 <Route path="*" element={<Error/>}/>
     </Routes>
     
