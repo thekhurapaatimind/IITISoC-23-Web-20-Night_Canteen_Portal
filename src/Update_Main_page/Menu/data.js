@@ -128,81 +128,81 @@ export const datacb = [
       button: 'Add to cart'
     },
     
-  ];
-   [ {
-      img: pmomo,
-      alt: 'Paneer Momo',
-      name: 'Paneer Momo',
-      price: 'Rs 65',
-      button: 'Add to cart'
-    },
-    {
-      img: paneerroll,
-      alt: 'Paneer roll',
-      name: 'Paneer roll',
-      price: 'Rs 95',
-      button: 'Add to cart'
-    }
-  ];
-  [
-    {
-        "CategoryName": "Hot beverage",
-        "name": "Tea", 
-        "img":  "../../data&pics/tea.png",
+   ];
+//   //   {
+//   //     img: pmomo,
+//   //     alt: 'Paneer Momo',
+//   //     name: 'Paneer Momo',
+//   //     price: 'Rs 65',
+//   //     button: 'Add to cart'
+//   //   },
+//   //   {
+//   //     img: paneerroll,
+//   //     alt: 'Paneer roll',
+//   //     name: 'Paneer roll',
+//   //     price: 'Rs 95',
+//   //     button: 'Add to cart'
+//   //   }
+//   // ];
+//   [
+//     {
+//         "CategoryName": "Hot beverage",
+//         "name": "Tea", 
+//         "img":  "../../data&pics/tea.png",
    
-    },
-    {
-        "CategoryName": "Hot beverage",
-        "name": "Coffee",
-        "img": "../../data&pics/coffee.png",
-    },
-    {
-        "CategoryName": "Cold beverage",
-        "name": "Badam Shake",
-        "img": "../../data&pics/BShake.png",
-    },
-    {
-        "CategoryName": "Cold beverage",
-        "name": "Cold coffee",
-        "img": "../../data&pics/cc.jpeg",},
-    {
-        "CategoryName": "Cold beverage",
-        "name": "Coca Cola",
-        "img": "../../data&pics/cola.png",
-    },
-    {
-        "CategoryName": "Soup",
-        "name": "Tomato Soup",
-        "img": "../../data&pics/TS.png",
-    },
-    {
-        "CategoryName": "Soup",
-        "name": "Hot & sour soup",
-        "img": "../../data&pics/HotnS.png",
-      },
-    {
-        "CategoryName": "Maggi & Pasta",
-        "name": "Veg Maggi",
-        "img": "../../data&pics/VM.png",
-    },
-    {
-        "CategoryName": "Maggi & Pasta",
-        "name": "Cheese Maggi",
-        "img": "../../data&pics/cheesemaggi.png",
-    },
-    {
-        "CategoryName": "Maggi & Pasta",
-        "name": "Pasta with red sauce",
-        "img": "../../data&pics/pwrs.jpeg",
-    },
-    {
-        "CategoryName": "Sandwich",
-        "name": "Paneer Sandwich",
-        "img": "../../data&pics/pansand.png",
-    },
-    {
-        "CategoryName": "Sandwich",
-        "name": "Cheese Sandwich",
-        "img": "../../data&pics/cheesesandwich.png",
-    }
-]
+//     },
+//     {
+//         "CategoryName": "Hot beverage",
+//         "name": "Coffee",
+//         "img": "../../data&pics/coffee.png",
+//     },
+//     {
+//         "CategoryName": "Cold beverage",
+//         "name": "Badam Shake",
+//         "img": "../../data&pics/BShake.png",
+//     },
+//     {
+//         "CategoryName": "Cold beverage",
+//         "name": "Cold coffee",
+//         "img": "../../data&pics/cc.jpeg",
+//     {
+//         "CategoryName": "Cold beverage",
+//         "name": "Coca Cola",
+//         "img": "../../data&pics/cola.png",
+//     },
+//     {
+//         "CategoryName": "Soup",
+//         "name": "Tomato Soup",
+//         "img": "../../data&pics/TS.png",
+//     },
+//     {
+//         "CategoryName": "Soup",
+//         "name": "Hot & sour soup",
+//         "img": "../../data&pics/HotnS.png",
+//       },
+//     {
+//         "CategoryName": "Maggi & Pasta",
+//         "name": "Veg Maggi",
+//         "img": "../../data&pics/VM.png",
+//     },
+//     {
+//         "CategoryName": "Maggi & Pasta",
+//         "name": "Cheese Maggi",
+//         "img": "../../data&pics/cheesemaggi.png",
+//     },
+//     {
+//         "CategoryName": "Maggi & Pasta",
+//         "name": "Pasta with red sauce",
+//         "img": "../../data&pics/pwrs.jpeg",
+//     },
+//     {
+//         "CategoryName": "Sandwich",
+//         "name": "Paneer Sandwich",
+//         "img": "../../data&pics/pansand.png",
+//     },
+//     {
+//         "CategoryName": "Sandwich",
+//         "name": "Cheese Sandwich",
+//         "img": "../../data&pics/cheesesandwich.png",
+//     }
+// ]
