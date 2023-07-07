@@ -7,7 +7,7 @@ const index = () => {
     <div className='bg'> 
 
     <img src={errmsg} />
-    <p>Sorry! Some error occurred</p>
+    <p>404! Some error occurred</p>
 
     </div>
   )
