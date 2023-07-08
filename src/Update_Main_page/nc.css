@@ -72,21 +72,23 @@
 }
 #navbar ul li button {
   display: inline;
+  width:90px;
   text-decoration: none;
   padding: 6px 14px;
   /* background-color: rgb(227, 248, 203); */   
   /* background-color: #f8683c; */ /*ch*/
   border-radius: 20px; 
-  font-weight: bolder;
-  color:rgb(255, 103, 103);
+
+  color:rgb(255, 255, 255);
   margin: -9px 30px;
-  background-color: rgba(194, 243, 255, 0.705);
+  background-color: rgba(255, 232, 170, 0.171);
   /* border-style: none; */  /*ch*/
   transition: all .1s ease-in-out;
-  
+
 }
 #navbar ul li button:hover{ /*changed full*/
-  transform: scale(1.05);
+  color:rgb(255, 248, 146);
+  transform: scale(1.06);
   cursor: pointer;
 }
 /* home tab */
