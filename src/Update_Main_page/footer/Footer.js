@@ -26,7 +26,7 @@ const Footer = () => {
     <Rr>Copyright &#169; 2023</Rr>
   
   <Lnk>
-    <ul style={{display:'flex',listStyle:'none'}}>
+    <ul style={{display:'flex',listStyle:'none',justifyContent:'center'}}>
       <li>
 <a href="http://diningfee.iiti.ac.in/"  target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" alt="IIT-I" title="IIT-I" width="25" height="25" ></img></a>
       </li>

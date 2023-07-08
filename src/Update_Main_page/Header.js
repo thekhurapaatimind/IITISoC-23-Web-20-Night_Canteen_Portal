@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import j from './asset/logo.png'
+import k from "../data&pics/cart-icon.png"
 import './nc.css'
 import { useAuth0 } from "@auth0/auth0-react";
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     const { logout } = useAuth0();
     const { user, isAuthenticated, isLoading } = useAuth0();
     if (isLoading) {
-        return <div>Loading ...</div>;
+        return <div><h1 style={{color:'green',textAlign:'center'}}>Loading ...</h1></div>;
       }
   return (
     <>
@@ -22,6 +23,7 @@ const Header = () => {
         <img src={j} title="Logo" alt="IIT-Indore logo" />
       </div>
       <ul>
+        <li className="cart"><img src={k} alt="cart"/></li>
         <li className="item">
           <NavLink to='/'>Home</NavLink>
         </li>
