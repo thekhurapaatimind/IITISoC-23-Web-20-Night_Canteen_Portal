@@ -1,12 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Header from '../Header';
-import { NavLink } from 'react-router-dom';
+ import Header from '../Header';
+ import { NavLink } from 'react-router-dom';
+ 
 import {
     ProductsContainer,
     ProductWrapper,
     ProductsHeading,
-    ProductTitle,
+    ProductTitle, 
     ProductCard,
     ProductImg,
     ProductInfo,
@@ -20,8 +21,30 @@ import {
   import {dataMP} from './data.js';
   import {dataSW} from './data.js';
 
+//  const Menu=() => {
+//     const navigate = useNavigate();
+//     return <>
+//     <section className='menu' id='menu'>
+//         <h1 className='Heading'>Menu</h1>
+//         <div className='box-container'>
+//             {imgs.map((item,index)=>
+//             (
+//                 <div className='box'>
+//                     <img src={item.img}/>
+//                     <h3>food</h3>
+//                     <div className="price">20rs.</div>
+//                     <a href="#" className="btn">Add to cart</a>
+//                 </div>
+//             )
+
+//             )}
+//         </div>
+//     </section>
+//     </>
+
 const Menu=() => {
-    const navigate = useNavigate();
+   const navigate = useNavigate();
+
     return (
         <>
     <Content>
@@ -29,7 +52,7 @@ const Menu=() => {
     <ProductsContainer>
         
             <ProductsHeading>
-                DISHES MADE JUST FOR YOU
+                <h1>DISHES MADE JUST FOR YOU</h1>
             </ProductsHeading>
             <ProductsHeading>
                 Hot Beverages
@@ -180,6 +203,6 @@ const Menu=() => {
         </Content>
     </>
   )
-}
-
+ 
+            }
 export default Menu

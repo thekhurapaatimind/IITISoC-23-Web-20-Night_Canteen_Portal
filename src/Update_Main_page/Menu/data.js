@@ -18,6 +18,66 @@ import PWRS from '../../data&pics/pwrs.jpeg'
 import PS from '../../data&pics/pansand.png'
 import PotSand from '../../data&pics/PSand.png'
 import CS from '../../data&pics/cheesesandwich.png'
+// export const imgs = [
+//     {
+//         img:ap,
+//     },
+//     {
+//         img:cc,
+//     },
+//     {
+//         img:PaneerNoodles,
+//     },
+//     {
+//         img:pbm,
+//     },
+//     {
+//         img:paneerroll,
+//     },
+//     {
+//         img:pmomo,
+//     },
+//     {
+//         img:tea  ,
+//     },
+//     {
+//         img:coffee ,
+//     },
+//     {
+//         img: BS,
+//     },
+//     {
+//         img:Cola ,
+//     },
+//     {
+//         img: TS,
+//     },
+//     {
+//         img:HS ,
+//     },
+//     {
+//         img:VM ,
+//     }, 
+//     {
+//         img:SM ,
+//     }, 
+//     {
+//         img:CM ,
+//     }, 
+//     {
+//         img:PWRS ,
+//     }, 
+//     {
+//         img:PS ,
+//     },
+//     {
+//         img:PotSand,
+//     },
+//     {
+//         img:CS,
+//     },
+    
+// ]
 export const datahb = [
   {
     img:  tea,

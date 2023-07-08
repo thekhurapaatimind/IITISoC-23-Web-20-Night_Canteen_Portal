@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:1.5rem;
+}
+.box-container .box{
+    padding:5rem;
+    text-align: center;
+    border: 0.2rem solid rgba(201, 194, 90, 0.781);
+}
+img{
+    height:10rem;
+    border-radius: 50%;
+}
+.price{
+    font-size: 1.5rem;;
+    font-weight: lighter;
+    padding: 0.5rem 0;
+}
+h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.box:hover{
+    background-color: aqua;
+    transition: 0.7s;
+}
