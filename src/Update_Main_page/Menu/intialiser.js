@@ -10,7 +10,6 @@ import {
     ProductCard,
     ProductImg,
     ProductInfo,
-    ProductDesc,
     ProductPrice,
     Content,
     ProductButton
@@ -47,10 +46,6 @@ const Menu=() => {
                             {product.name}
                         </ProductTitle>
 
-                        <ProductDesc>
-                            {product.desc}
-                        </ProductDesc>
-
                         <ProductPrice>
                             {product.price}
                         </ProductPrice>
@@ -78,10 +73,7 @@ const Menu=() => {
                         <ProductTitle>
                             {product.name}
                         </ProductTitle>
-
-                        <ProductDesc>
-                            {product.desc}
-                        </ProductDesc>
+                       
 
                         <ProductPrice>
                             {product.price}
@@ -111,10 +103,7 @@ const Menu=() => {
                         <ProductTitle>
                             {product.name}
                         </ProductTitle>
-
-                        <ProductDesc>
-                            {product.desc}
-                        </ProductDesc>
+                       
 
                         <ProductPrice>
                             {product.price}
@@ -143,10 +132,7 @@ const Menu=() => {
                         <ProductTitle>
                             {product.name}
                         </ProductTitle>
-
-                        <ProductDesc>
-                            {product.desc}
-                        </ProductDesc>
+                       
 
                         <ProductPrice>
                             {product.price}
@@ -175,10 +161,7 @@ const Menu=() => {
                         <ProductTitle>
                             {product.name}
                         </ProductTitle>
-
-                        <ProductDesc>
-                            {product.desc}
-                        </ProductDesc>
+                       
 
                         <ProductPrice>
                             {product.price}
