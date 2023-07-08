@@ -2,3 +2,6 @@ li{
     align-items: center;
     margin:2px 15px;
 }
+li:hover{
+    transform: scale(1.1);
+}

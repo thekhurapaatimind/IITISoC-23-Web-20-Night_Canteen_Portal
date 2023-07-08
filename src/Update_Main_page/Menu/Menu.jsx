@@ -10,7 +10,7 @@ export const ProductsContainer = styled.div`
 export const Content = styled.div`
     
     background-image: url(${img});
-    height: 5572px;
+    height: 5509px;
 `;
 
 export const ProductWrapper = styled.div`
