@@ -10,7 +10,7 @@ export const ProductsContainer = styled.div`
 export const Content = styled.div`
     
     background-image: url(${img});
-    height: 5000px;
+    height: 5572px;
 `;
 
 export const ProductWrapper = styled.div`
@@ -21,37 +21,29 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
-
+border: 0.5px solid white;
   margin: 2rem 2rem;
   width: 400px;
   background-color:rgb(0,0,0,0.5);
   border-radius:25px;
+  transition:all 0.2s ease-in-out;
+  &:hover{
+    transform:scale(1.05);
+    background-color:rgba(255, 255, 255, 0.3);
+    cursor:pointer;
+    color:black;
+border: 0.5px solid yellow;
+
+  }
 `;
+
 export const ProductImg = styled.img`
   border-radius:50%;
   margin-top:30px;
   margin-left:97px;
   height: 200px;
   width:200px;
-  
-    --c: #fbff00; 
-    --b: 2.5px;    
-    --g: 0px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
-    cursor: pointer;
-  
-  &:hover {
-    --_i: 100%;
-    transition: .3s, background-size .3s .3s;
-  }
+ 
 
 `;
 
@@ -141,7 +133,7 @@ export const ProductPrice = styled.p`
 export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
-  border: 2px solid white;
+  border:0px !important;
   color: #fff;
   background-color:rgba(201, 194, 90, 0.452);
   transition: 0.2 ease-out;

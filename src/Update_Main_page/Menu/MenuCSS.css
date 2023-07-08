@@ -10,7 +10,7 @@
 .box-container .box{
     padding:5rem;
     text-align: center;
-    border: 0.2rem solid rgba(201, 194, 90, 0.781);
+    border: 0.2rem solid rgba(255, 238, 0, 0.5);
 }
 img{
     height:10rem;

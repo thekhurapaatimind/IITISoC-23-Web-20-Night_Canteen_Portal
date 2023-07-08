@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
  import Header from '../Header';
  import { NavLink } from 'react-router-dom';
- 
+import Footer from '../footer/Footer'
 import {
     ProductsContainer,
     ProductWrapper,
@@ -199,7 +199,8 @@ const Menu=() => {
                     );
                 })}
             </ProductWrapper>
-        </ProductsContainer>
+        
+        </ProductsContainer><Footer/>
         </Content>
     </>
   )
