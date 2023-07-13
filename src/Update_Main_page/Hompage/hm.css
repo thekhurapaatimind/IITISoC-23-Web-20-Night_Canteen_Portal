@@ -1,14 +1,14 @@
 #section p{
-   padding: 8px 8px;
+   padding: 0.8rem 0.8rem;
 }
 #home h1{
-   margin: 50px 0px !important;
+   margin: 5rem 0px !important;
    font-size: 2rem !important;
 }
 p{
-   margin-bottom: 50px !important;
+   margin-bottom: 5rem !important;
    font-size: 1.1rem !important;
 }
 #p1{
-   width: 900px !important;
+   width: 90rem !important;
 }
