@@ -23,7 +23,7 @@ const Header = () => {
         <img src={j} title="Logo" alt="IIT-Indore logo" />
       </div>
       <ul>
-        <li className="cart"><img src={k} alt="cart"/></li>
+        <li className="cart"><img src={k} alt="cart"/><NavLink to='/Cart'></NavLink></li>
         <li className="item">
           <NavLink to='/'>Home</NavLink>
         </li>

@@ -23,7 +23,7 @@ export const ProductWrapper = styled.div`
 export const ProductCard = styled.div`
 border: 0.5px solid white;
   margin: 2rem 2rem;
-  width: 400px;
+  width: 300px;
   background-color:rgb(0,0,0,0.5);
   border-radius:25px;
   transition:all 0.2s ease-in-out;
@@ -40,10 +40,9 @@ border: 0.5px solid yellow;
 export const ProductImg = styled.img`
   border-radius:50%;
   margin-top:30px;
-  margin-left:97px;
+  margin-left:50px;
   height: 200px;
   width:200px;
- 
 
 `;
 

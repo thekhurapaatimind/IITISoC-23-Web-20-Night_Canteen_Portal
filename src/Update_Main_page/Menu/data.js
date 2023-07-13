@@ -18,6 +18,8 @@ import PWRS from '../../data&pics/pwrs.jpeg'
 import PS from '../../data&pics/pansand.png'
 import PotSand from '../../data&pics/PSand.png'
 import CS from '../../data&pics/cheesesandwich.png'
+import HC from '../../data&pics/Hotchocolate.png'
+ 
 // export const imgs = [
 //     {
 //         img:ap,
@@ -91,6 +93,13 @@ export const datahb = [
   alt: 'Coffee',
   name: 'Coffee',
   price: 'Rs 15',
+  button: 'Add to cart'
+}, 
+{
+  img:  HC,
+  alt: 'Hot Chocolate',
+  name: 'Hot chocolate',
+  price: 'Rs 45',
   button: 'Add to cart'
 }, 
 ];
