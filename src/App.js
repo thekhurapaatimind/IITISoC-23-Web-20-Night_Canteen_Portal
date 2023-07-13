@@ -1,3 +1,4 @@
+import { useMediaQuery } from "react-responsive";
 import React from "react";
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import css from './Update_Main_page/nc.css'
@@ -11,6 +12,25 @@ import Orders from "./Update_Main_page/Orders/Orders";
 
 import styled from "styled-components";
  function App() {
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
+
+  const isLaptop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 1200px)",
+  });
+
+  const isBigScreen = useMediaQuery({
+    query: "(min-device-width: 1201px )",
+  });
   return (
    <>
 <Routes>
@@ -24,7 +44,12 @@ import styled from "styled-components";
 
 <Route path="*" element={<Error/>}/>
     </Routes>
-    
+    {isMobileDevice && <Mobile />}
+  {isTabletDevice && 
+  <TabletMobile />}
+  {isDesktop && <Desktop />}
+  {isLaptop && <Laptop />}
+  {isBigScreen && <BigScreen />}
     </>
    );
  }
