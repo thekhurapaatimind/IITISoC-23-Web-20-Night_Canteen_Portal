@@ -7,7 +7,7 @@
 .ftco-section {
     padding: 8em 0;
     position: relative; 
-padding-bottom: 70%;}
+padding-bottom: 50%;}
  .contact-section .contact-info p {
     color: rgba(73, 47, 134, 0.9); }
  .contact-section .contact-info p a {
@@ -18,7 +18,7 @@ padding-bottom: 70%;}
 .contact-section .box {
     width: 100%;
     background: rgba(10, 28, 10, 0.874);
-    padding: 1.5em;
+    padding: 2em;
     border-radius: 4px;
     }
             
@@ -29,7 +29,7 @@ padding-bottom: 70%;}
     height: 290px;
     padding-bottom: 20%;
     padding-right: 15px;
-    padding-left: 80px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto; }
  @media (min-width: 576px) {
@@ -56,7 +56,7 @@ color: rgba(255, 255, 255, 0.9); }
     display: -ms-flexbox !important;
     display: flex !important;
     
-left: 28%;
+left: 20%;
 right: 20%; }
 .h4 {
     margin-bottom: 0.5rem;
@@ -68,7 +68,7 @@ right: 20%; }
 padding-top: 2%;
 text-decoration: underline;
 position: absolute;
-  left: 60px;
+  left: 20px;
   width: 10px;
  right: 10px;
   
