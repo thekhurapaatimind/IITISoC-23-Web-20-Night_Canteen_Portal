@@ -4,6 +4,7 @@ import Header from '../Header'
 import "./hm.css"
 import Footer from '../footer/Footer'
 
+
 function Hompage() {
     return (
         <>
