@@ -44,12 +44,12 @@ import styled from "styled-components";
 
 <Route path="*" element={<Error/>}/>
     </Routes>
-    {isMobileDevice && <Mobile />}
+    {/* {isMobileDevice && <Mobile />}
   {isTabletDevice && 
   <TabletMobile />}
   {isDesktop && <Desktop />}
   {isLaptop && <Laptop />}
-  {isBigScreen && <BigScreen />}
+  {isBigScreen && <BigScreen />} */}
     </>
    );
  }
