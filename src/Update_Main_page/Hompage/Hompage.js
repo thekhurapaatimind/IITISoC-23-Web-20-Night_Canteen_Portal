@@ -3,7 +3,11 @@ import { NavLink } from 'react-router-dom'
 import Header from '../Header'
 import "./hm.css"
 import Footer from '../footer/Footer'
-
+import { ProductsHeading } from '../Menu/Menu'
+import {ala} from '../../data&pics/aladeen.jpg'
+import {amul} from '../../data&pics/amul.jpeg'
+import {shiru} from '../../data&pics/sherucafe.jpg'
+import {bk} from '../../data&pics/Bakeology.jpg'
 
 function Hompage() {
     return (
@@ -24,6 +28,11 @@ function Hompage() {
       <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Menu'>ORDER NOW! </NavLink></span>
     </button>
   </section>
+  <ProductsHeading>-In the Campus -</ProductsHeading>
+  <img src={bk}/>
+  <img src={amul}/>
+  <img src={ala}/>
+  <img src={shiru}/>
   <Footer/>
 </>
     );
