@@ -28,11 +28,11 @@ function Hompage() {
       <span > <NavLink style={{textDecoration: 'none',color: 'white'}} to='/Menu'>ORDER NOW! </NavLink></span>
     </button>
   </section>
-  <ProductsHeading>-In the Campus -</ProductsHeading>
+  {/* <ProductsHeading>-In the Campus -</ProductsHeading>
   <img src={bk}/>
   <img src={amul}/>
   <img src={ala}/>
-  <img src={shiru}/>
+  <img src={shiru}/> */}
   <Footer/>
 </>
     );

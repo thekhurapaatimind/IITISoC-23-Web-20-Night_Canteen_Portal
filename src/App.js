@@ -37,19 +37,14 @@ import styled from "styled-components";
 <Route path="/" element={<Hompage/>}/>
 <Route path="/Contact" element={<Contact/>}/>
 <Route path="/Orders" element={<Orders/>}/>
-<Route path="/Header" element={<header/>}/>
+<Route path="/Header" element={<Header/>}/>
 <Route path="/Menu" element={<Menu/>}/>
  <Route path="/Cart" element={<Cart/>}/>
 
 
 <Route path="*" element={<Error/>}/>
     </Routes>
-    {/* {isMobileDevice && <Mobile />}
-  {isTabletDevice && 
-  <TabletMobile />}
-  {isDesktop && <Desktop />}
-  {isLaptop && <Laptop />}
-  {isBigScreen && <BigScreen />} */}
+  
     </>
    );
  }

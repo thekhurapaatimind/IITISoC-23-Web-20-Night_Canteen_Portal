@@ -5,10 +5,10 @@ export const Box = styled.div`
   display:flex;
   align-items:center;
   background:rgb(0,0,0,0.2);
-
+padding: 8px 12px;
   width: 100%;
   height: 120px;
-  margin:100px auto;
+  margin:0.5px auto;
 `
 export const Htext = styled.div`
 color:rgb(255,255,255);
