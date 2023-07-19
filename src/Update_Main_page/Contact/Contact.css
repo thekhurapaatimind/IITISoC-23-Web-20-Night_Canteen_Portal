@@ -3,23 +3,17 @@
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; 
+    
 }
-.ftco-section {
-    padding: 8em 0;
-    position: relative; 
-padding-bottom: 50%;}
- .contact-section .contact-info p {
-    color: rgba(73, 47, 134, 0.9); }
- .contact-section .contact-info p a {
-    color: #762dbb88; }
-.contact-section .contact-info p span {
-    text-transform: uppercase;
-    font-weight: 700;}
+
 .contact-section .box {
     width: 100%;
-    background: rgba(10, 28, 10, 0.874);
-    padding: 2em;
-    border-radius: 4px;
+    background: grey;
+    padding: 1.6em ;
+    border-radius: 7px;
+position: relative;
+top: 10em;
+right: -8em;
     }
             
 .bg-light {
@@ -58,29 +52,19 @@ color: rgba(255, 255, 255, 0.9); }
     
 left: 20%;
 right: 20%; }
-.h4 {
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 1.5rem; }
+
 .font-weight-bold {
     font-weight: 1000 !important;
 padding-top: 2%;
 text-decoration: underline;
 position: absolute;
-  left: 20px;
+  left: 100px;
   width: 10px;
- right: 10px;
+ bottom: 350px;
   
  }
- col-12 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%; }
-            
-.w {
-    width: 100% !important; }      
+ 
+   
 #home::before{
         content:"";
         position:absolute;
